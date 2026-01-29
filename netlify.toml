@@ -1,0 +1,8 @@
+[build]
+  command = "npm run build"
+  publish = "out"
+
+# Note: @netlify/plugin-nextjs is not needed for static export
+# The plugin is designed for server-side Next.js, but we're using static export
+# If you see the plugin in Netlify UI, you can disable it
+
